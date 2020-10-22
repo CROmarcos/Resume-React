@@ -1,0 +1,38 @@
+.Header {
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    background: #1C0581;
+    width: 100%;
+    height: 80px;
+
+    &-Inner {
+        max-width: 1280px;
+        margin: 0 auto;
+    }
+}
+
+.LanguageSelector {
+    float: right;
+
+    &-List {
+        list-style: none;
+
+        &-Item {
+            display: inline-flex;
+            align-items: center;
+            margin: auto;
+        }
+    }
+
+    &-Choose {
+        margin-left: 40px;
+        margin-right: 20px;
+    }
+}
+
+.Left {
+    width: 10px;
+    height: 100%;
+    float: left;
+}

@@ -4,7 +4,12 @@ import './PersonalInfo.scss';
 const PersonalInfo=()=>{
     return(
         <div>
-            <h1>Osobni podaci</h1>
+            <table>
+                <tr>
+                    <th>Ime i prezime:</th>
+                    <td>marko</td>
+                </tr>
+            </table>
         </div>
     );
 }
